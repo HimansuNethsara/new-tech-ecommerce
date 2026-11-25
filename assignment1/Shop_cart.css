@@ -1,0 +1,84 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "Queens";
+    padding: 0 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+.active{
+    background-color: gray;
+}
+
+@font-face{
+    font-family: "Queens";
+    src: url("resources/QueensidesMedium-x30zV.ttf");
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.footer .col {
+    background-color: #070617;
+    color: white;
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer .col p {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: yellow;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    font-weight: bold;
+    
+    cursor: pointer;
+}

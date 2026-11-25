@@ -1,0 +1,48 @@
+.main-body{
+    background-image: url("resources/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+    font-family: "Queensides";
+    src: url("resources/QueensidesMedium-x30zV.ttf");
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src: url("resources/Quicksand-Medium.ttf");
+}
+
+.title01{
+    font-family: "Quicksand";
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.logo{
+    background-image: url("resources/logo1.jpg");
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title02{
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.txt{
+    color: white;
+    font-size: 20px;
+    font-family: "Queensides";
+}
+
+.mail{
+    margin-left: 100px ;
+}

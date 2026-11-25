@@ -1,0 +1,56 @@
+.main-body{
+    background-image: url("resources/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    background-image: url("resources/logo1.jpg");
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.background{
+    background-image: url("resources/background_img1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+    font-family: "Queensides";
+    src: url("resources/QueensidesMedium-x30zV.ttf");
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src: url("resources/Quicksand-Medium.ttf");
+}
+
+.title02{
+    font-size: 25px;
+    font-family: "Queensides";
+    color: white;
+}
+
+.title01{
+    font-family: "Quicksand";
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.txt{
+    color: white;
+    font-size: 20px;
+    font-family: "Queensides";
+}
+
+.txt1{
+    color: white;
+    font-size: 10px;
+    font-family: "Queensides";
+}

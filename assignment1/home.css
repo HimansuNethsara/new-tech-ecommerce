@@ -1,0 +1,373 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "Queens";
+    padding: 0 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@font-face{
+    font-family: "Queens";
+    src: url("resources/QueensidesMedium-x30zV.ttf");
+}
+
+.icon-bar{
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+  
+.icon-bar a {
+    float: right; 
+    text-align: center; 
+    width: 2%; 
+     
+    transition: all 0.3s ease; 
+    color: gray; 
+    font-size: 30px; 
+}
+  
+.icon-bar a:hover {
+    background-color: gray ; 
+}
+  
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Queens";
+  }
+
+.tablink {
+    background-color: black;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    width: 11.1%;
+}
+  
+.tablink:hover {
+    background-color: #777;
+}
+  
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100x 20px;
+    height: 100%;
+}
+  
+  #Home {background-color: #f1f1f1;}
+  #Phones {background-color: #f1f1f1;}
+  #Tablets {background-color: #f1f1f1;}
+  #Laptops {background-color: #f1f1f1;}
+  #Cameras {background-color: #f1f1f1;}
+  #Battery {background-color: #f1f1f1;}
+  #Drone {background-color: #f1f1f1;}
+  #Mic {background-color: #f1f1f1;}
+  #Gameco {background-color: #f1f1f1;}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.imglogo{
+    height: 50px;
+    margin-left: 40px;
+}
+
+.tablink1 {
+    background-color: black;
+    color: white;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    width: 11%;
+}
+
+.icon-bar1 {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar1 a {
+    display: block;
+    text-align: left;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+  
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.google {
+    background: #dd4b39;
+    color: white;
+}
+  
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.txt{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 20px ; 
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+.column1 {
+    float: left;
+    width: 25%;
+}
+  
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 26px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: -20px;
+}
+
+.txt1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Queens";
+}
+
+.txt2{
+    font-size: 15px;
+    color: green;
+    text-align: center;
+    font-family: "Queens";
+}
+
+.iPhone12{
+    height: 300px;
+    width: 300px;
+    margin-left: -25px;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+  
+.success {
+    border-color: #04AA6D;
+    color: green;
+}
+  
+.success:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.danger {
+    border-color: #f44336;
+    color: red
+}
+  
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+
+.badge {
+    font-family: "Queens";
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+
+
+.footer .col {
+    background-color: #070617;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+
+.footer .col p {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: yellow;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+
